@@ -1,0 +1,21 @@
+body{
+  background-color: #202020;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+label{
+  display: block;
+}
+
+input, select{
+  width: 100%;
+}
+
+span.error{
+  display: block;
+  color: #f00;
+  font-size: x-small;
+}
